@@ -1,0 +1,38 @@
+{
+	"b_1":{
+		"color":"rgb(219,238,243)",
+		"url":"../images/web-101-101-5.jpg",
+		"zIndex":800,
+		"display":"list-item",
+		"href":"goodDetail.html"
+	},
+	"b_2":{
+		"color":"rgb(238,236,225)",
+		"url":"../images/web-101-101-1.jpg",
+		"zIndex":900,
+		"display":"none",
+		"href":"goodDetail.html"
+	},
+	"b_3":{
+		"color":"rgb(183,221,232)",
+		"url":"../images/web-101-101-3.jpg",
+		"zIndex":900,
+		"display":"none",
+		"href":"goodDetail.html"
+	},
+	"b_4":{
+		"color":"rgb(227,108,9)",
+		"url":"../images/web-101-101-2.jpg",
+		"zIndex":900,
+		"display":"none",
+		"href":"goodDetail.html"
+	},
+	"b_5":{
+		"color":"rgb(146,205,220)",
+		"url":"../images/web-101-101-4.jpg",
+		"zIndex":900,
+		"display":"none",
+		"href":"goodDetail.html"
+	}
+
+}

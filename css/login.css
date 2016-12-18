@@ -1,0 +1,267 @@
+html,body,ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,img{
+	margin:0;padding:0;
+}
+img{
+	border:0;display:block;
+	cursor: pointer;
+}
+a{
+	text-decoration:none;
+	cursor: pointer;
+}
+ul,li{
+	list-style:none;
+}
+i{
+	font-style: normal;
+}
+iput{
+	font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+body{
+	color:#666;
+	min-width: 1200px;
+	font: 12px/20px "Hiragino Sans GB","Microsoft Yahei",arial,宋体,"Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+.header-box{
+	width: 100%;
+}
+.header-box .header{
+	height: 100px;
+	width: 1200px !important;
+	margin: auto;
+}
+.header .site-logo{
+	width: 180px;
+	margin-top: 24px;
+	float: left;
+	margin:15px 10px auto 0;
+}
+
+.site-logo img{
+	max-width: 176px;
+	max-height: 54px;
+	
+}
+
+.header .header-left{
+	float: left;
+	margin: 20px 90px 0 10px;
+	width: 195px;
+	height: 60px;
+	background: url(../images/header-left.png);
+}
+
+.header .header-right{
+	float: right;
+	font-size: 16px;
+}
+
+.header-right li{
+	float: left;
+	line-height: 95px;
+	margin-left: 40px;
+	text-align: center;	
+}
+
+.header-right li a{
+	color: #333;
+}
+
+.header-login{
+	padding-bottom: 12px;
+	background: url(../images/login-line.png) left bottom repeat-x;
+	
+}
+
+/*container*/
+.login-wrap{
+	background: #e2ebe8;
+	padding: 40px 0px;
+	margin-top: -12px;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: auto;
+}
+
+.login-con{
+	margin: 0px auto;
+	text-align: center;
+	width: 1200px;
+}
+
+.clearfix{
+	display: inline-block;
+}
+
+.text-left{
+	float: left;
+}
+.text-right{
+	float: right;
+}
+
+.login-conr{
+	width: 539px;
+	height: auto;
+	background: url(../images/login-top.png) left top no-repeat;
+	margin-bottom: 70px;
+}
+.login-conrcon{
+	width: 300px;
+	background: #fff;
+	padding: 0px 20px 0px 20px;
+	text-align: left;
+	margin: 19px auto 0px 101px;
+}
+
+#login-form .border-none{
+	border: none !important;
+}
+
+#login-form div{
+	height: 25px;
+	line-height: 25px;	
+}
+
+#login-form p{
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+#login-form p a{
+	height: 22px;
+	line-height: 2px;
+	font-size: 14px;
+}
+
+.color-yellow{
+	color: #ff9900 !important;
+}
+
+#login-form .clearfix{
+	width: 300px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.usermobile,.userpassword1,.usercaptcha{
+	height: 25px;
+	line-height: 25px;
+	width: 240px;
+	margin: 2px 0;
+	text-align: left;
+	padding-left: 60px;
+}
+
+#login-form i{
+	margin-left: 15px;
+	height: 25px;
+	display: inline-block;
+	padding-right: 15px;
+	border-right: 1px solid #ddd;
+	float: left;	
+}
+
+.login-icon1{
+	width: 22px;
+	background: url(../images/user-icon.png) left center no-repeat;
+}
+
+.login-icon2{
+	width: 22px;
+	background: url(../images/password-icon2.png) left center no-repeat;
+}
+
+.login-icon3{
+	width: 22px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+#login-form input{
+	width: 220px;
+	border: none;
+	color: #666;
+	text-align: left;
+	margin-left: 10px;
+	height: 25px;
+	line-height: 25px;
+	background: none;
+	font-size: 14px;
+	float: left;
+	outline: none;
+}
+
+#login-form #captcha{
+	width: 115px !important;
+	display: inline;
+}
+
+#login-form .clearfix img{
+	width: 90px;
+	height: 26px;
+	display: block;
+	float: left;
+	margin-left:15px ;
+}
+
+#login-form p{
+	color: red !important;	
+}
+
+#login-form #colorh{
+	color: #666 !important;
+}
+
+.divmarginb{
+	margin-bottom: 20px;
+}
+
+#login-form .button-break{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 16px;
+	cursor: pointer;	
+}
+
+.divmarginb1{
+	margin-bottom: 60px;
+}
+
+/*footer*/
+#footer{
+	border-top: none !important;
+	padding-top: 30px;
+	font-size: 12px !important;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#footer p{
+	color: #666;
+	word-spacing: 5px;
+	padding: 10px 0;
+}
+
+#footer a{
+	color: #666;
+}

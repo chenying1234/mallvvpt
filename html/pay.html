@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>为为商城，家具建材品牌折扣，省钱省心有保障！</title>
+		<script src="../lib/js/jquery-1.12.3.js"></script>
+		<link href="../lib/css/base.css" rel="stylesheet" type="text/css">
+		<link href="../css/home_header.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="../css/goodlist.css" />
+		<script src="../js/common.js" charset="utf-8"></script>
+		<script src="../js/home-header.js" charset="utf-8"></script>
+		<script src="../js/home_header_last.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/home_cart.css" />
+		<link rel="stylesheet" type="text/css" href="../css/pay.css"/>
+	</head>
+
+	<body>
+		<!--侧边-->
+		<div id="ncToolbarbf"></div>
+
+		<script src="../lib/js/area_array.js" type="text/javascript" charset="utf-8"></script>
+		<!--头部-->
+		<div id="headerbf"></div>
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../lib/js/jquery.slidebox.js" charset="utf-8"></script>
+		<!--轮播图-->
+		<header class="ncc-head-layout">
+			<div class="site-logo">
+				<a href="##"><img src="../images/05174866977471586.png" class="pngFix"></a>
+			</div>
+			<ul class="ncc-flow">
+				<li class=""><i class="step1"></i>
+					<p>我的购物车</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class="current"><i class="step2"></i>
+					<p>填写核对购物信息</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class=""><i class="step3"></i>
+					<p>支付提交</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class=""><i class="step4"></i>
+					<p>订单完成</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+			</ul>
+		</header>
+
+		<div class="ncc-wrapper">
+			<form method="post" id="order_form" name="order_form" action="">
+				<div class="ncc-main">
+					<div class="ncc-title">
+						<h3>填写核对购物信息</h3>
+						<h5>请仔细核对填写收货、发票等信息，以确保物流快递及时准确投递。</h5>
+					</div>
+					<div class="ncc-receipt-info" id="com2">
+						<div class="ncc-receipt-info-title">
+							<h3>收货人信息</h3>
+							<a href="##" nc_type="buy_edit" id="edit_reciver" style="display: inline-block;">[修改]</a>
+						</div>
+						<div id="addr_list" class="ncc-candidate-items">
+							<ul>
+								<li>
+									<span class="true-name"></span>
+									<span class="address"></span>
+									<span class="phone"></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ncc-receipt-info current_box" id="com1">
+						<div class="ncc-receipt-info-title">
+							<h3>收货人信息</h3>
+						</div>
+						<div id="addr_list" class="ncc-candidate-items">
+							<ul>
+								<li class="receive_add addr_item">
+									<input value="0" nc_type="addr" id="add_addr" name="addr" checked="checked" type="radio">
+									<label for="add_addr">使用新地址</label>
+									<label><a class="del" href="##">使用自提服务站 </a></label>
+								</li>
+								<div id="add_addr_box">
+									<div class="ncc-form-default">
+										<form method="" id="addr_form" action="" novalidate="novalidate">
+											<dl>
+												<dt><i class="required">*</i>收货人姓名：</dt>
+												<dd>
+													<input class="text w100" name="true_name" maxlength="20" id="true_name" value="" type="text">
+													<label class="error"></label>
+												</dd>
+											</dl>
+											<dl>
+												<dt><i class="required">*</i>所在地区：</dt>
+												<dd>
+													<div id="region">
+														<form>
+															<select class="contArr">
+																<option>- - 请选择 - </option>
+															</select>
+															<select class="city"></select>
+															<select class="sent"></select>
+														</form>	
+													</div>
+												</dd>
+											</dl>
+											<dl>
+												<dt><i class="required">*</i>详细地址：</dt>
+												<dd >
+													<input class="text w500" name="address" id="address" maxlength="80" value="" type="text">
+													<label class="error"></label>												
+												</dd>
+											</dl>
+											<dl>
+												<dt> <i class="required">*</i>手机号码：</dt>
+												<dd>
+													<input class="text w200" name="mob_phone" id="mob_phone" maxlength="15" value="" type="text">
+													<label class="error"></label>
+													(或)固定电话： <input class="text w200" id="tel_phone" name="" maxlength="20" value="" type="text">
+												</dd>
+											</dl>
+										</form>
+									</div>
+								</div>
+							</ul>
+							<div class="hr16">
+								<a id="hide_addr_list" class="ncc-btn ncc-btn-red" href="##">保存收货人信息</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="ncc-receipt-info" id="paymentCon">
+						<div class="ncc-receipt-info-title">
+							<h3>支付方式</h3>
+							<a href="##" nc_type="buy_edit" id="edit_payment" style="display: inline-block;">[修改]</a>
+						</div>
+						<div class="ncc-candidate-items">
+							<ul>
+								<li>在线支付</li>
+							</ul>
+						</div>
+						<div id="payment_list" class="ncc-candidate-items" style="display: none;">
+							<ul>
+								<li>
+									<input value="online" name="payment_type" id="payment_type_online" checked="checked" type="radio">
+									<label for="payment_type_online">在线支付</label>
+								</li>
+							</ul>
+							<div class="hr16">
+								<a href="##" class="ncc-btn ncc-btn-red" id="hide_payment_list">保存支付方式</a>
+							</div>
+						</div>
+					</div>
+					<div class="ncc-receipt-info">
+						<div class="ncc-receipt-info-title">
+							<h3>发票信息</h3>
+							<a href="##" nc_type="buy_edit" id="edit_invoice" style="display: inline-block;">[修改]</a>
+						</div>
+						<div id="invoice_list" class="ncc-candidate-items">
+							<ul>
+								<li>普通发票 个人 明细</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ncc-receipt-info">
+						<div class="ncc-receipt-info-title">
+							<h3>商品清单</h3>
+							<a href="shopCar.html">返回购物车</a>
+						</div>
+						<table class="ncc-table-style">
+							<thead>
+								<tr>
+									<th class="w20"></th>
+									<th></th>
+									<th>商品</th>
+									<th class="w120">单价(元)</th>
+									<th class="w120">数量</th>
+									<th class="w120">小计(元)</th>
+								</tr>
+							</thead>
+							
+							<tfoot>
+								<tr>
+									<td colspan="20">
+										<div class="ncc-all-account">订单总金额：<em id="orderTotal"></em>元</div>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+					<div class="ncc-bottom">
+						<a href="javascript:void(0)" id="submitOrder" class="ncc-btn fr ncc-btn-acidblue" style="">提交订单</a>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<!--底部列表-->
+		<div id="footerbf">
+		</div>
+		<script type="text/javascript" src="../lib/js/jquery.cookie.js"></script>
+		<script src="../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/pay.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			loadHtml("common/ncToolbar.html", "ncToolbarbf")
+			loadHtml("common/head.html", "headerbf");
+			loadHtml("common/foot.html", "footerbf");
+		</script>
+		<script src="../js/broadside.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

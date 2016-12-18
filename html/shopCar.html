@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>为为商城，家具建材品牌折扣，省钱省心有保障！</title>
+		<script src="../lib/js/jquery-1.12.3.js"></script>
+		<link href="../lib/css/base.css" rel="stylesheet" type="text/css">
+		<link href="../css/home_header.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="../css/goodlist.css" />
+		<script src="../js/common.js" charset="utf-8"></script>
+		<script src="../js/home-header.js" charset="utf-8"></script>
+		<script src="../js/home_header_last.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/home_cart.css" />
+	</head>
+
+	<body>
+		<!--侧边-->
+		<div id="ncToolbarbf"></div>
+
+		<script src="../lib/js/area_array.js" type="text/javascript" charset="utf-8"></script>
+		<!--头部-->
+		<div id="headerbf"></div>
+
+		<link href="../css/index.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../lib/js/jquery.slidebox.js" charset="utf-8"></script>
+		<!--轮播图-->
+		<header class="ncc-head-layout">
+			<div class="site-logo">
+				<a href="##"><img src="../images/05174866977471586.png" class="pngFix"></a>
+			</div>
+			<ul class="ncc-flow">
+				<li class="current"><i class="step1"></i>
+					<p>我的购物车</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class=""><i class="step2"></i>
+					<p>填写核对购物信息</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class=""><i class="step3"></i>
+					<p>支付提交</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li class=""><i class="step4"></i>
+					<p>订单完成</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+			</ul>
+		</header>
+		<div class="ncc-wrapper">
+			<div class="ncc-main">
+				<div class="ncc-title">
+					<h3>我的购物车</h3>
+					<h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+				</div>
+				<form method="" id="form_buy" name="form_buy">
+					<input value="1" name="ifcart" type="hidden">
+					<table class="ncc-table-style" nc_type="table_cart">
+						<thead>
+							<tr>
+								<th class="w50">
+									<label><input checked="checked" value="1" id="selectAll" type="checkbox">全选</label>
+								</th>
+								<th></th>
+								<th>商品</th>
+								<th class="w120">单价(元)</th>
+								<th class="w120">数量</th>
+								<th class="w120">小计(元)</th>
+								<th class="w80">操作</th>
+							</tr>
+						</thead>
+						
+						
+						
+						
+						
+						<tfoot>
+							<tr>
+								<td colspan="20">
+									<div class="ncc-all-account">商品总价（不含运费）<em id="cartTotal"></em>元</div>
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</form>
+				<div class="ncc-bottom">
+					<a id="next_submit" href="##" class="ncc-btn ncc-btn-acidblue fr">
+						<i class="icon-pencil"></i>下一步，填写核对购物信息
+					</a>
+				</div>
+			</div>
+				
+				<div class="ncc-null-shopping" style="display: none;">
+					<i class="ico"></i>
+					<h4>您的购物车还没有商品</h4>
+					<p>
+						<a href="goodlist.html" class="ncc-btn-mini mr10">
+							<i class="icon-reply-all"></i>马上去购物
+						</a>
+						<a href="##" class="ncc-btn-mini">
+							<i class="icon-file-text"></i>查看自己的订单
+						</a>
+					</p>
+				</div>
+				
+				<!-- 猜你喜欢 -->
+				<div class="goods-guess-like">
+					<div class="title">猜您喜欢的宝贝</div>
+					<div class="content">
+						<div class="noguess">暂无商品向您推荐</div>
+					</div>
+				</div>
+			
+		</div>
+		<!--底部列表-->
+		<div id="footerbf">
+		</div>
+		<script type="text/javascript" src="../lib/js/jquery.cookie.js"></script>
+		<script src="../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/shopCar.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			loadHtml("common/ncToolbar.html", "ncToolbarbf")
+			loadHtml("common/head.html", "headerbf");
+			loadHtml("common/foot.html", "footerbf");
+		</script>
+		<script src="../js/broadside.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

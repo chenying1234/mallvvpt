@@ -1,0 +1,276 @@
+html,body,ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,img,div{
+	margin:0;
+	padding:0;
+}
+img{
+	border:0;display:block;
+	cursor: pointer;
+}
+a{
+	text-decoration:none;
+	cursor: pointer;
+}
+ul,li{
+	list-style:none;
+}
+i{
+	font-style: normal;
+}
+iput{
+	font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+body{
+	font-size:12px;font-family:"微软雅黑";color:#666;min-width: 1200px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+/*头部*/
+.header-box{
+	width: 100%;
+}
+.header-box .header{
+	height: 100px;
+	width: 1200px !important;
+	margin: auto;
+}
+.header .site-logo{
+	width: 180px;
+	margin-top: 24px;
+	float: left;
+	margin:15px 10px auto 0;
+}
+
+.site-logo img{
+	max-width: 176px;
+	max-height: 54px;
+	
+}
+
+.header .header-left{
+	float: left;
+	margin: 20px 90px 0 10px;
+	width: 195px;
+	height: 60px;
+	background: url(../images/header-left.png);
+}
+
+.header .header-right{
+	float: right;
+	font-size: 16px;
+}
+
+.header-right li{
+	float: left;
+	line-height: 95px;
+	margin-left: 40px;
+	text-align: center;	
+}
+
+.header-right li a{
+	color: #333;
+}
+
+.header-register{
+	padding-bottom: 12px;
+	background: url(../images/register-line.png) left bottom repeat-x;
+	
+}
+
+.register-bt{
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #ddd;
+	margin: 60px 0px;
+}
+
+.register-bt p{
+	width: 100px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 25px;
+	color: #333;
+	border-bottom: 2px solid #ff9801;
+	min-width: 100px;
+	padding: 0px 50px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+}
+
+#register-Index{
+	margin: 0px auto;
+	width: 570px;
+	text-align: center;	
+	margin-bottom: 70px;
+}
+
+#register-Index .clearfix{
+	width: 400px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.usermobile,.userpassword1,.userpassword2,.usercaptcha,.useragreement{
+	height: 25px;
+	line-height: 25px;
+	width: 340px;
+	margin: 2px 0;
+	text-align: left;
+	padding-left: 140px;
+}
+
+#register-Index i{
+	margin-left: 15px;
+	height: 25px;
+	display: inline-block;
+	padding-right: 15px;
+	border-right: 1px solid #ddd;
+	float: left;	
+}
+
+.register-icon1{
+	width: 20px;
+	background: url(../images/register-tel-icon.png) left center no-repeat;
+}
+
+.register-icon2{
+	width: 20px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+.register-icon3{
+	width: 20px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+.register-icon4{
+	width: 20px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+#register-Index input{
+	color: #666;
+	text-align: left;
+	margin-left: 10px;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+	background: none;
+	font-size: 14px;
+	float: left;
+	width: 320px;
+	outline: none;
+}
+
+#captcha{
+	width: 100px !important;
+	display: inline;
+}
+
+.clearfix img{
+	width: 90px;
+	height: 26px;
+	display: block;
+	margin-left:290px ;
+}
+
+#register-Index p{	
+	color: red !important;
+}
+
+#register-Index .border-none{
+	border: none !important;
+	position: relative;
+}
+
+#register-Index input[type="checkbox"]{
+	position: absolute;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+	float: left;
+	margin-left: 0px;
+}
+
+#register-Index input[type="checkbox"]:checked+label{
+	width: 16px;
+	background: url(../images/accept-icon.png) 0px center no-repeat !important;
+	border: 1px solid transparent !important;
+	height: 16px;
+	display: block !important;
+	cursor: pointer;
+	border-radius: 100%;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+}
+
+#register-Index input[type="checkbox"]+label{
+	width: 16px;
+	height: 16px;
+	display: block !important;
+	cursor: pointer;
+	border-radius: 100%;
+	border: 1px solid #333;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+}
+
+#register-Index h2{
+	position: absolute;
+	left: 40px;
+	line-height: 17px;
+	font: 12px/20px "Hiragino Sans GB","Microsoft Yahei",arial,宋体,"Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+
+#register-Index h2 a{
+	color: #0199CB;	
+}
+
+#register-Index .agree-wrap{
+	padding: 0;
+}
+
+#register-Index .button-break{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+/*footer*/
+#footer{
+	border-top: none !important;
+	padding-top: 30px;
+	font-size: 12px !important;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#footer p{
+	color: #666;
+	word-spacing: 5px;
+	padding: 10px 0;
+}
+
+#footer a{
+	color: #666;
+}

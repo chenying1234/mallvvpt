@@ -1,0 +1,53 @@
+#login-form #captcha {
+	width: 115px !important;
+}
+
+label.error {
+	clear: both;
+	display: block;
+	color: red !important;
+	text-align: left;
+	margin-left: 64px;
+	margin-top: 38px;
+	*margin-top: 0px !important;
+	position: absolute;
+}
+
+.login-con div {
+	margin-bottom: 30px !important;
+}
+
+.login-con .yzm {
+	position: relative;
+}
+
+.login-con .w50 {
+	width: 100px !important;
+}
+
+.yzm img {
+	float: right;
+	margin-right: 20px;
+	z-index: 0;
+}
+
+.yzm a {
+	width: 90px !important;
+	height: 26px;
+	display: block;
+	z-index: 1;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	
+}
+label.error {
+	margin: 0px !important;
+}
+
+.address label.error {
+	margin-top: 17px !important;
+}
